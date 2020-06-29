@@ -25,13 +25,13 @@ class SearchForm extends Component {
       <form> 
         <div className="label-wrapper">
           <label htmlFor="description">Job Description</label>
-          <input id="description" name="description" placeholder="Ex: 'JavaScript'"/>
+          <input onChange={this.changeHandler}  id="description" name="description" placeholder="Ex: 'JavaScript'"/>
         </div>
         <div className="label-wrapper">
           <label htmlFor="jobLocation">Job Location</label>
-          <input id="jobLocation" name="jobLocation" placeholder="Ex: 'Denver'"/>
+          <input onChange={this.changeHandler} id="jobLocation" name="jobLocation" placeholder="Ex: 'New York'"/>
         </div>
-        <button type="submit">Search!</button>
+        <button onClick={this.submitHandler} type="submit">Search!</button>
       </form>
     )
   }
