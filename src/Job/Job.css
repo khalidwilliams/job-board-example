@@ -1,0 +1,7 @@
+article {
+  border: solid 1px black;
+  padding-bottom: .5em;
+  margin: 1em;
+  border-radius: .5em;
+  box-shadow: 2px 1px grey ;
+}
