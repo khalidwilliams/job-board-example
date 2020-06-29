@@ -8,10 +8,10 @@ class App extends Component {
     super();
     this.state = {
       jobs: [],
-      error: ''
     };
     this.url = 'https://jobs.github.com/positions.json';
   }
+
 
   search = (searchParameters) => {
     const jobLocation = searchParameters.jobLocation;
@@ -38,7 +38,7 @@ class App extends Component {
         this.setState({jobs: jobs, error: ''})
       })
       .catch(error => {
-        this.setState({error});
+        console.error(error)
       })
   }
 
