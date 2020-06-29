@@ -8,4 +8,7 @@ This app searches for and displays job postings from the [GitHub Jobs API](https
 3. Run `npm i`
 4. Run `npm start` to run the development server
 
+## Code Sandbox
+The appilcation can be viewed [here](https://codesandbox.io/s/github/khalidwilliams/job-board-example) on CodeSandbox.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
